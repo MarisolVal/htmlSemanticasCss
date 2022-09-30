@@ -1,0 +1,61 @@
+body{ /*Llamado a la etiqueta body directamente */
+    text-align: center; /*Ya que todo el texto dentro del cuerpo está alineado al centro se puede colocar el estilo aquí*/
+}
+.cabecera{/*Llamado a la clase cabecera con su configuración de color y borde*/
+    background-color:#E8F2A1;
+    height: 200px;
+    border-radius: 20px;
+}
+.cabecera h1{ /*EL estilo sólo se aplicará a la(s) etiqueta(s) h1 que haya dentro de la clase cabecera*/
+    padding-top: 50px;
+}
+#principal{ /*Llamado a identificador en lugar de llamar a la clase*/
+    width: 100%; 
+    display: flex; /*El contenido del elemento */
+    justify-content: space-around;
+    margin-top: 15px; 
+    height: 450px;
+}
+.fuente{
+    font-style: normal; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: large;
+}
+.seccion1{
+    width: 30%; 
+    background-color:#F7D1D5; 
+    border: groove #2067ca 5px; 
+    border-radius: 30px;  
+    font-size: x-large;
+}
+.listadoSeccion1{
+    width: 80%; 
+    list-style: none;
+}
+.listadoSeccion1 li{
+    margin-top: 35px;
+}
+.seccion2{
+    background-color:#FFF5CE;
+    border: solid 2px #C2D0E3;
+    border-radius: 30px;
+    width: 36%;
+}
+.s2a2{
+    margin-top: 25%;
+}
+.apartado{
+    background-color: #DEDCE6; 
+    border: solid 2px #C2D0E3; 
+    border-radius: 30px; 
+    width: 30%;     
+}
+.pie{
+    background-color:#cef2ff;
+    border-radius: 20px;
+    width: 100%;
+    height: 210px;
+    margin-top: 15px;
+    font-size: medium;
+    line-height: 200px;
+}
